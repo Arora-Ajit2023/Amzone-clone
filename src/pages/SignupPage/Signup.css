@@ -1,0 +1,11 @@
+/* .contentBackground {
+  --background: #0f3f91;
+} */
+
+.center {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}

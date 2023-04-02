@@ -1,0 +1,9 @@
+.cardList {
+  display: inline-flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0 0.5rem;
+}
+.cardList img {
+  object-fit: contain;
+}

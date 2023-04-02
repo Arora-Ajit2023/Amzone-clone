@@ -1,0 +1,28 @@
+.right_img {
+  display: inline-flex;
+  padding: 10px;
+}
+/* .right_img:hover {
+  border: 2px solid #e77600;
+} */
+
+.right_img img {
+  width: 60px;
+  height: 50px;
+  object-fit: contain;
+  border: 1px solid #eee;
+}
+.right_img img:hover {
+  border: 1px solid#e77600;
+}
+.left_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.left_img img {
+  height: 400px;
+  width: 600px;
+  object-fit: contain;
+}

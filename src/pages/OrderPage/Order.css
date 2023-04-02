@@ -1,0 +1,75 @@
+.radio_align1 {
+  margin-bottom: 6.2rem;
+}
+.radio_align2 {
+  margin-bottom: 2rem;
+}
+.cardImg {
+  display: inline-flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.cardImg img {
+  object-fit: contain;
+}
+.cardDetail {
+  padding-left: 3.5rem;
+}
+.cardDetail img {
+  margin-top: 0.6rem;
+  padding-left: 0.2rem;
+  width: 100%;
+  height: 60%;
+}
+.cardLink {
+  margin-top: 0.9rem;
+  padding-left: 0.2rem;
+}
+
+@media (min-width: 992px) {
+  .cardDetailModalClass {
+    --height: 45vh;
+    --width: 50vw;
+    --border-radius: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardDetailModalClass {
+    --height: 75vh;
+    --width: 90vw;
+    --border-radius: 16px;
+  }
+}
+
+.upiMethod {
+  display: inline-flex;
+  padding-left: 3.5rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.upiMethod ion-button {
+  margin-top: 0.5rem;
+}
+
+.orderstyle {
+  color: #b12704;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  font-weight: bolder;
+}
+.mobileView {
+  display: block;
+}
+@media only screen and (max-width: 700px) {
+  .desktopView {
+    display: none;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .mobileView {
+    display: none;
+  }
+}

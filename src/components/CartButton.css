@@ -1,0 +1,9 @@
+ion-badge {
+  --color: #f90;
+  --background: #232f3e;
+  border-radius: 50%;
+}
+.cartbadge {
+  margin-bottom: 1rem;
+  margin-right: 0.8rem;
+}

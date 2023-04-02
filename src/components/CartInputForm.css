@@ -1,0 +1,23 @@
+/* .quntity_selector input {
+  margin: 2rem;
+} */
+/* input {
+  padding: 7px;
+  text-align: center;
+  font-size: 1.1rem;
+  width: 100px;
+  color: black;
+  border-radius: 16px;
+  margin-top: 0.2rem;
+  height: 40px;
+  border: 2px solid #eee;
+} */
+
+.inputField {
+  width: 3rem;
+  padding-top: 0.4rem;
+  margin: 0.2rem;
+  font-size: 1.3rem;
+  justify-content: center;
+  color: black;
+}

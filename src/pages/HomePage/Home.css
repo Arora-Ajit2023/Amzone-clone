@@ -1,0 +1,113 @@
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* #card-layout {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+} */
+
+/* .card-layout {
+  font-size: 13px !important;
+  line-height: 19px !important;
+} */
+
+.card-size {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+/* @media (min-width: 776px) {
+  .text {
+    position: absolute;
+    z-index: 1;
+    top: 36%;
+  }
+  .card-align {
+    margin-top: 6rem;
+  }
+}
+@media (max-width: 991px) {
+  .text {
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+  }
+  .card-align {
+    margin-top: 45rem;
+  }
+} */
+
+@media (min-width: 992px) {
+  .text {
+    position: absolute;
+    z-index: 1;
+    top: 36%;
+  }
+  .card-align {
+    margin-top: 6rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .card-align {
+    margin-top: 15rem;
+  }
+}
+@media only screen and (min-width: 556px) and (max-width: 991px) {
+  .text {
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+  }
+  .card-align {
+    margin-top: 45rem;
+  }
+}
+@media (max-width: 556px) {
+  .text {
+    position: absolute;
+    z-index: 1;
+    top: 11.5%;
+  }
+  .card-align {
+    margin-top: 104rem;
+  }
+}
+/* @media (min-width: 992px) {
+  .card-align {
+    margin-top: 6rem;
+  }
+} */
+
+ion-button {
+  --background: #37475a;
+  text-transform: none;
+}
+ion-button:hover {
+  --background: #3a485a;
+}
+.list {
+  list-style: none;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.navBackground {
+  background-color: #232f3e;
+  color: white;
+}
+.list li:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+  color: white;
+}
+.ftColor {
+  background-color: #131a22;
+}
+img:hover {
+  cursor: pointer;
+}
